@@ -1,16 +1,17 @@
-//Draft: Please don't consider this as final
+//Draft:(not final) Caution!! Unstructured,incomplete and bad code ahead. ! hehe !
+//-------------------------------------------------------------------------
 
 
-/*
-Idea: 
-
-
-
-
-
-
-
-
-
-*/
 #include<iostream>
+#include<vector>
+
+using namespace std;
+typedef vector<int> myvec;
+
+
+int main()
+{
+  
+  
+ return 0;
+}
