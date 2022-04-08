@@ -2,7 +2,7 @@
 //-------------------------------------------------------------------------
 
 //8 puzzle problem using A star algorithm.
-
+//test
 #include<iostream>
 #include<vector>
 #include<list>
