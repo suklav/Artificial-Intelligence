@@ -1,7 +1,6 @@
 //Draft:(not final) Caution!! Unstructured,incomplete and bad code ahead. ! hehe !
 //-------------------------------------------------------------------------
 
-//8 puzzle problem using A star algorithm.
 //test21
 #include<iostream>
 #include<vector>
