@@ -14,8 +14,6 @@ using namespace std;
 typedef vector<int> myvec;
 typedef list<myvec> state;
 
-
-
 myvec goal;
 goal.push_back(99);
 goal.push_back(0);
@@ -100,7 +98,7 @@ int Calculate_h_value(myvec *puzzle)
   
   return 0;
   
-}
+} 
 
  
  
@@ -138,6 +136,8 @@ int main()
   
  return 0;
 }
+
+//test
 
 
 
