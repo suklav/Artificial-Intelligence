@@ -1,7 +1,7 @@
 //Draft:(not final) Caution!! Unstructured,incomplete and bad code ahead. ! hehe !
 //-------------------------------------------------------------------------
-//AI
-//test21
+
+
 #include<iostream>
 #include<vector>
 #include<list>
@@ -135,8 +135,4 @@ int main()
   
  return 0;
 }
-
-//test
-
-
 
