@@ -1,5 +1,5 @@
 #8 puzzzle problem using A star
-1) To take input on the fly, Just input the array named initial_state.
+1) To take input on the fly, Just input the array named initial_state using input() function.
 2) If you want to see the amount of time taken by the A star search, then un-comment the two lines of time.time().
 3) Some lines are used during debugging, which are commented out.
 4) Numpy should be installed
