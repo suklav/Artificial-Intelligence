@@ -1,13 +1,14 @@
-//Name: SUKLAV GHOSH, ROLL: 2021SMCS005, 
-//PROBLEM: Write a C program to count the connected components of an undirected graph.
+#include<iostream>
 
 
-#include<stdio.h>
-#include<stdlib.h>
 
 
 typedef struct node{ 
-	int vertex; 
+	int val;
+  	int alpha;
+ 	int beta;
+  	int index;
+  	int depth
 	struct node *next; 
 } node; 
 
@@ -15,6 +16,7 @@ typedef struct{
 	int vN; 
 	node **vA; 
 } graph;
+
 
 
 //initializes adjacency list
@@ -133,66 +135,14 @@ int check_if_exists(graph g, int i, int j) {
     return 0;
 }
 
-//reachability function
-void reach(graph g, int i,int *visited)
-{
-  visited[i]=1;
-  printf(" %d ",i);
- 
-  for(int j=0;j<g.vN;j++)
-  {
-   if(check_if_exists(g,j,i))
-   {
-     if(!visited[j])
-       reach(g,j,visited); 
-   }
-   if(check_if_exists(g,i,j))
-   {
-     if(!visited[j])
-       reach(g,j,visited); 
-   }
-  
-  }
 
-}
 
-//dfs function
-void DFS(graph g) 
-{
-   int* visited = (int*) calloc (g.vN, sizeof(int));
-   int* result = (int*) calloc (g.vN, sizeof(int));
-   
-   for(int i=0;i<g.vN;i++)
-      visited[i]=0;
-   int cnt=0;
-   for(int i=0;i<g.vN;i++)
-      if(visited[i]==0)
-       {
-       printf("\nComp-%d:",cnt+1);
-       /*
-       for(int ik=0;ik<g.vN;ik++)
-      		printf(" %d ",visited[ik]);*/
-      		
-         reach(g,i,visited);
-        
-        result[cnt]=i;
-        cnt++;
-        
-       }
-       
-      printf("\n\n ********TOPO SOR*********\n"); 
- for(int ik=0;ik<g.vN;ik++)
-      		printf(" %d ",visited[ik]);
-       
-       printf("\n\n");
-       /*
- for(int ik=0;ik<g.vN;ik++)
-      		printf(" %d ",visited[ik]);*/
-      		
- //printf("%d",cnt);
- 
- }
- 
+
+
+
+
+
+
  graph * create_graph(int v)
  {
    graph *g=(graph*)calloc(1, sizeof(graph));;
@@ -229,10 +179,10 @@ void DFS(graph g)
 
 int main()
 {
-
-  int v;
-  printf("Enter the no. of vertices: ");
-  scanf("%d",&v);
+  //incomplete
+  int m,d,v;
+  printf("Enter the depth and branching factor of the tree: ");
+  scanf("%d%d",&d,&m);
 
   graph *g= create_graph(v);
   
