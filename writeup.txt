@@ -1,0 +1,16 @@
+1
+None
+
+
+I did a local search with a randomized initial state, and when we got to a local hill, we disturbed the local minima to acquire the new start state.
+
+A dash is exchanged with its nearest non-dash neighbour in the neighbourhood function.
+
+Disruption are performed by locating a random block of consecutive dashes in any arbitrary string, removing it from that string, and then randomly inserting it at a different location on the string. 
+The reasoning behind this is that we use a move from a neighbouring state (Instead of single dashes, blocks of dashes are moved.).
+
+As a result, we can be certain that we won't wind up with the same local minima that we disrupted the first time. 
+Now, we can generate k larger states by randomly adding dashes and k smaller ones by randomly removing dashes to get the next start state. 
+The existing local minima are likewise perturbed.
+
+As a result, the 2k + 1 states are disturbed, and the lowest-cost start state is chosen.

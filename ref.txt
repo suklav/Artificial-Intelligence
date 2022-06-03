@@ -1,0 +1,12 @@
+https://www.tutorialspoint.com/cplusplus-program-to-implement-levenshtein-distance-computing-algorithm
+https://www.geeksforgeeks.org/edit-distance-dp-5/
+https://rosettacode.org/wiki/Levenshtein_distance
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance
+
+
+
+reference soultion (fully solved):
+
+https://github.com/KaustubhCode/AI-Genome-Pattern-Matching/tree/42a9d08e5fac15b6911f5d702efd7eb6c73f2aa8
+
+
