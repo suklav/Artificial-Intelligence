@@ -119,4 +119,16 @@ void solvenqueen(int n)
     
     
     cout<<"Total no of sols: "<<total;
+    
+    
 }
+
+
+
+
+
+
+
+
+   //Same algorithm used for my B.Sc. final year project 2
+   //Same data structure used for my B.Sc. final year project 2
