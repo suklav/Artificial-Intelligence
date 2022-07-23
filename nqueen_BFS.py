@@ -1,4 +1,3 @@
-
 from queue import Queue
 
 
@@ -45,7 +44,7 @@ def main():
     sol_holder = solve_nqn(n)
     all_sols = sol_holder.solve_bfs()
     print('Total No. of solutions: ', len(all_sols))
-    
+
 
 if __name__ == '__main__':
     main()

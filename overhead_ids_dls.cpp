@@ -1,7 +1,6 @@
 //c++ program to find out the number of nodes generated in a depth-limited search and in an iterative deepening search to depth d with branching factor b.
 // ** And to find the overhead.
 
-
 #include <iostream>
 #include<math.h>
 
@@ -33,3 +32,4 @@ int main()
     
     return 0;
 }
+

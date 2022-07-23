@@ -99,11 +99,10 @@ void solvenqueen(int n)
                     myvec.push_back(row + 1); //next row
                  }
            }
-        
+           
         //if last queen is safe
         else 
          {
-        
             //goal-test
             if(myvec.size() == n)
              {
@@ -112,8 +111,6 @@ void solvenqueen(int n)
                 row = myvec.back();
                 myvec.pop_back();
                 myvec.push_back(row + 1);
-                
-                
              }
             // if not a goal.. proceed with next column's initial row
              else myvec.push_back(0);
