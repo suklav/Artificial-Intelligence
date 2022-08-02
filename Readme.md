@@ -1,6 +1,7 @@
 # Artificial Intelligence
  
-## The main branch contains only the uninformed searches implementation. You may want to check out the other branches.
+This is the Main Branch. The main branch contains only the uninformed search implementation. You may want to check out the other branches.
+
 
 In this branch:
 1. [Nqueens solutions using a DFS](Nqueens_DFS.cpp)
