@@ -1,4 +1,4 @@
-//Nqueens solutions using a BFS search of the state-space tree
+//Nqueens solutions using a DFS search of the state-space tree
 //the myvec vector records the row numbers only
 
 #include<iostream>
