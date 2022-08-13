@@ -58,7 +58,7 @@ void solvenqueen(int n)
      myvec.push_back(0);
 
 
-     // Loop until one solutions is found
+     // Loop until all solutions are found
      while(!flag)
      {
         // if the last queen is not in a safe place
